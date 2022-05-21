@@ -1,3 +1,5 @@
+const { artifacts } = require("truffle");
+const { contract } = require("truffle");
 const Token = artifacts.require('./Token')
 
 require('chai')
